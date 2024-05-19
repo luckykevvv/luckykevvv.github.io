@@ -468,6 +468,7 @@ body {
     color: var(--bodyTextColorWhite);
   }
   #hero-1785 .cs-text {
+    margin:0 auto;
     margin-bottom: 2rem;
   }
   #hero-1785 .cs-button-group {
@@ -642,6 +643,7 @@ body {
   }
   #stats-1575 .cs-background img {
     position: absolute;
+    opacity: 0.1;
     top: 0;
     left: 0;
     height: 100%;
@@ -1238,14 +1240,16 @@ body {
   }
 }
 /* Large Desktop 1300px - Parallax Scroll */
+
 @media only screen and (min-width: 81.25rem) {
   #cta-1611 {
-    background: url("https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Landscapes/underwater.jpg");
+    background-image: url(../images/subsback.jpg);
     background-size: cover;
     background-position: center 20%;
     background-repeat: no-repeat;
     background-attachment: fixed;
   }
+
   #cta-1611 .cs-background img {
     display: none;
   }
@@ -1368,6 +1372,29 @@ body {
   }
   #cs-footer-274 .cs-nav-link:hover:before {
       width: 100%;
+  }
+  #cs-footer-274 .cs-bottom {
+    max-width: 80rem;
+    margin: auto;
+    margin-top: 2rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid #484848;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #cs-footer-274 .cs-copyright,
+  #cs-footer-274 .cs-copyright-link {
+      font-size: 1rem;
+      line-height: 1.5em;
+      color: var(--bodyTextColor);
+  }
+  #cs-footer-274 .cs-copyright-link {
+      text-decoration: none;
+      transition: color 0.3s;
+  }
+  #cs-footer-274 .cs-copyright-link:hover {
+      color: var(--primary);
   }
 }
 /* Tablet - 768px */
