@@ -6,6 +6,10 @@
     <title>Granger Cafe</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="icon" href="images/icon.png">
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
 </head>
 <body>
 
@@ -97,24 +101,53 @@
 
     <section id="stats-1575">
         <div class="cs-container">
-            <ul class="cs-card-group">
-                <li class="cs-item">
-                    <img class="cs-icon" aria-hidden="true" src="images/recommend.svg" loading="lazy" decoding="async" alt="icon" width="48" height="48">
-                    <span class="cs-number">99%</span>
-                    <span class="cs-desc">Positive customer feedback</span>
-                </li>
-                <li class="cs-item">
-                    <img class="cs-icon" aria-hidden="true" src="images/coffeeicon.svg" loading="lazy" decoding="async" alt="icon" width="48" height="48">
-                    <span class="cs-number">50+</span>
-                    <span class="cs-desc">Different coffees and desserts</span>
-                </li>
-                <li class="cs-item">
-                    <img class="cs-icon" aria-hidden="true" src="images/fast.svg" loading="lazy" decoding="async" alt="icon" width="48" height="48">
-                    <span class="cs-number">10</span>
-                    <span class="cs-desc">Minutes quick pickup</span>
-                </li>
-            </ul>
+            <div class="swiper">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide">
+                    <ul class="cs-card-group">
+                        <li class="cs-item">
+                            <img class="cs-icon" aria-hidden="true" src="images/recommend.svg" loading="lazy" decoding="async" alt="icon" width="48" height="48">
+                            <span class="cs-number">99%</span>
+                            <span class="cs-desc">Positive customer feedback</span>
+                        </li>
+                        <li class="cs-item">
+                            <img class="cs-icon" aria-hidden="true" src="images/coffeeicon.svg" loading="lazy" decoding="async" alt="icon" width="48" height="48">
+                            <span class="cs-number">50+</span>
+                            <span class="cs-desc">Different coffees and desserts</span>
+                        </li>
+                        <li class="cs-item">
+                            <img class="cs-icon" aria-hidden="true" src="images/fast.svg" loading="lazy" decoding="async" alt="icon" width="48" height="48">
+                            <span class="cs-number">10</span>
+                            <span class="cs-desc">Minutes quick pickup</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="swiper-slide">
+                    <div class="swiper-slide">
+                        <ul class="cs-card-group">
+                            <li class="cs-item">
+                                <img class="cs-icon" aria-hidden="true" src="images/recommend.svg" loading="lazy" decoding="async" alt="icon" width="48" height="48">
+                                <span class="cs-number">99%</span>
+                                <span class="cs-desc">Positive customer feedback</span>
+                            </li>
+                            <li class="cs-item">
+                                <img class="cs-icon" aria-hidden="true" src="images/coffeeicon.svg" loading="lazy" decoding="async" alt="icon" width="48" height="48">
+                                <span class="cs-number">50+</span>
+                                <span class="cs-desc">Different coffees and desserts</span>
+                            </li>
+                            <li class="cs-item">
+                                <img class="cs-icon" aria-hidden="true" src="images/fast.svg" loading="lazy" decoding="async" alt="icon" width="48" height="48">
+                                <span class="cs-number">10</span>
+                                <span class="cs-desc">Minutes quick pickup</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div> 
         </div>
+        <div class="swiper-button-prev"></div>
         <picture class="cs-background">
             <!--Mobile Image-->
             <source media="(max-width: 600px)" srcset="images/statsback.jpg">
@@ -241,7 +274,7 @@
     <!-- ============================================ -->
     <!--                  Reviews                     -->
     <!-- ============================================ -->
-
+    <!-- Slider main container -->
     <section id="reviews-1611">
         <div class="cs-container">
             <picture class="cs-picture">
@@ -365,7 +398,9 @@
             <span class="cs-copyright">Icons by <a class="cs-copyright-link" href="https://www.icons8.com">Icons8</a> <a class="cs-copyright-link" href="https://fonts.google.com/">Google Fonts</a></span>
         </div>
     </footer>
-                                
+                           
 </body>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 <script src="js/script.js"></script>
 </html>

@@ -595,6 +595,12 @@ body {
     justify-content: center;
     row-gap: 3.75rem;
   }
+  #stats-1575 .cs-title,
+  #stats-1575 .cs-text {
+    margin:0 auto;
+    margin-top: 2rem;
+    color: var(--bodyTextColorWhite);
+  }
   #stats-1575 .cs-item {
     text-align: center;
     list-style: none;
@@ -613,6 +619,10 @@ body {
     height: auto;
     margin: 0 0 1.5rem;
     display: block;
+  }
+  #stats-1575 .swiper-button-prev {
+    margin-left: 1.5rem;
+    color:#669933;
   }
   #stats-1575 .cs-number {
     /* 31px - 61px */
@@ -1060,6 +1070,7 @@ body {
     min-height: clamp(30rem, 40vw, 32.25rem);
     /* -120px to -176px */
     margin-bottom: calc(clamp(7.5rem, 14vw, 11rem)*-1);
+
   }
 }
 
@@ -1437,4 +1448,4 @@ body {
   }
 }
 
-                                                                                                                       
+                                                                                                                     
