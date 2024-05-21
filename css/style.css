@@ -38,7 +38,9 @@ body {
   font-family: "Pacifico", Arial, Helvetica, sans-serif;
   display: block;
 }
-
+.cs-button-solid{
+  color:#547d2b;
+}
 .cs-title {
   font-size: var(--headerFontSize);
   font-weight: 900;
@@ -406,7 +408,7 @@ body {
     box-sizing: border-box;
     padding: 0 1.5rem;
     color: #fff;
-    background-color: var(--primary);
+    background-color: #547d2b;
     border-radius: 0.25rem;
     display: inline-block;
     position: relative;
@@ -491,7 +493,7 @@ body {
     /* prevents padding from adding to the width */
     box-sizing: border-box;
     padding: 0 1.5rem;
-    background-color: var(--primary);
+    background-color: #547d2b;
     color: var(--bodyTextColorWhite);
     border-radius: 0.25rem;
     display: inline-block;
@@ -1161,7 +1163,7 @@ body {
     color: #fff;
     min-width: 9.375rem;
     padding: 0 1.5rem;
-    background-color: var(--primaryLight);
+    background-color: #547d2b;
     display: inline-block;
     position: relative;
     z-index: 1;
