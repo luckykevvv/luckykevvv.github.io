@@ -720,6 +720,9 @@ body {
     flex-direction: column;
     align-items: center;
   }
+  #sbsr-1575 .cs-topper{
+    color:#547d2b;
+  }
   #sbsr-1575 .cs-title {
     /* 20 characters wide including spaces */
     max-width: 20ch;
